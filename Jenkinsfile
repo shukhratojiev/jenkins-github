@@ -5,19 +5,19 @@ pipeline{
   stages{
     stage("build"){
       steps{
-         echo 'building ...'
+         echo 'building ... updated'
       }
     }
     
     stage("test"){
       steps{
-         echo 'testing ...'
+         echo 'testing ... updated'
       }
     }
     
     stage("deploy"){
       steps{
-         echo 'deploying ...'
+         echo 'deploying ... updated'
       }
     }
     
